@@ -2,6 +2,24 @@ import Head from "next/head";
 
 import styles from "./home.module.scss";
 
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
+const images = [
+  {
+    original: "/images/header.png",
+    thumbnail: "/images/header.png",
+  },
+  {
+    original: "/images/imagemTest.jpeg",
+    thumbnail: "/images/imagemTest.jpeg",
+  },
+  {
+    original: "/images/header.png",
+    thumbnail: "/images/header.png",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -22,6 +40,10 @@ export default function Home() {
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco.
           </p>
+        </div>
+
+        <div className={styles.ConteinerGallery}>
+          <ImageGallery items={images} autoPlay={true} />
         </div>
 
         <div className={styles.AboutTeam}>

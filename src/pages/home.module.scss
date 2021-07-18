@@ -20,13 +20,17 @@
   }
 }
 
+.ConteinerGallery {
+  margin-top: 20px;
+}
+
 .AboutTeam {
   div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 10px;
 
     h1 {
