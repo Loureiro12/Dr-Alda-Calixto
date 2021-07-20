@@ -1,12 +1,64 @@
 .container {
   text-align: center;
 
+  h1 {
+    font-size: 20px;
+    text-align: left;
+    color: #a76c75;
+
+    margin-bottom: 34px;
+    // text-align: justify;
+  }
+
   input {
     width: 100%;
     border-radius: 10px;
     background-color: #f9e0b7;
     border: none;
     height: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
+
+    padding: 10px;
+  }
+
+  p {
+    text-align: left;
+    font-size: 16px;
+    color: #a76c75;
+
+    margin-bottom: 5px;
+  }
+
+  button {
+    border-radius: 25px;
+    height: 45px;
+    width: 183px;
+    border: none;
+
+    font-size: 18px;
+
+    background-color: #a76c75;
+    color: #f9e0b7;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #a76c75;
+  }
+
+  .networks {
+    margin-top: 20px;
+    button {
+      width: 60px;
+      height: 60px;
+      border-radius: 100px;
+      margin-left: 20px;
+    }
+
+    img {
+      width: 30px;
+      height: 30;
+    }
   }
 }
