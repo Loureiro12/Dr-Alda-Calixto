@@ -25,6 +25,13 @@ export function Header() {
         </div>
         <h1>A vida é melhor quando você sorri!</h1>
       </div>
+
+      <div className={styles.containerMin}>
+        <div className={styles.headerMin}>
+          <img src="/images/logoTipo.png" alt="Dr. Alda Calixto" />
+        </div>
+        <h2>A vida é melhor quando você sorri!</h2>
+      </div>
     </header>
   );
 }
