@@ -5,6 +5,8 @@ import styles from "./home.module.scss";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import { Footer } from "../../components/Footer";
+
 const images = [
   {
     original: "/images/header.png",
@@ -29,7 +31,11 @@ export default function Home() {
       <main className={styles.contentContainer}>
         <div className={styles.aboutClinic}>
           <div>
-            <img src="/images/icon.png" alt="Dr.Alda Calixto" />
+            <img
+              src="/images/icon.png"
+              alt="Dr.Alda Calixto"
+              className={styles.imgTooth}
+            />
             <h1>Sobre a clínica</h1>
           </div>
           <p>
@@ -49,7 +55,11 @@ export default function Home() {
         <div className={styles.AboutTeam}>
           <div>
             <h1>Nossa equipe</h1>
-            <img src="/images/icon.png" alt="Dr.Alda Calixto" />
+            <img
+              src="/images/icon.png"
+              alt="Dr.Alda Calixto"
+              className={styles.imgTooth}
+            />
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -84,7 +94,11 @@ export default function Home() {
         <div className={styles.plans}>
           <div className={styles.titlePlans}>
             <div>
-              <img src="/images/icon.png" alt="Dr.Alda Calixto" />
+              <img
+                src="/images/icon.png"
+                alt="Dr.Alda Calixto"
+                className={styles.imgTooth}
+              />
               <h1>Nossos planos</h1>
             </div>
             <p>
@@ -106,6 +120,7 @@ export default function Home() {
                     className={styles.imgTitleTable}
                     src="/images/imageTable.png"
                     alt="Dr.Alda Calixto"
+                    className={styles.imgTooth}
                   />
                 </td>
                 <td className={styles.category}>Plano Porcelana</td>
@@ -246,7 +261,11 @@ export default function Home() {
         <div className={styles.Address}>
           <div className={styles.titleAddress}>
             <div>
-              <img src="/images/icon.png" alt="Dr.Alda Calixto" />
+              <img
+                className={styles.imgTooth}
+                src="/images/icon.png"
+                alt="Dr.Alda Calixto"
+              />
               <h1>Nosso endereço</h1>
             </div>
           </div>
@@ -259,47 +278,7 @@ export default function Home() {
           ></iframe>
         </div>
       </main>
-
-      <div className={styles.footer}>
-        <div className={styles.contanteFooter}>
-          <div className={styles.links}>
-            <h3 style={{ marginBottom: 10 }}>Alda Calixto</h3>
-            <a href="">Sobre a clínica</a>
-            <br />
-            <a href="">Nossa equipe</a>
-            <br />
-            <a href="">Nossos planos</a>
-          </div>
-
-          <div className={styles.button}>
-            <img src="/images/callWhats.png" alt="Dr.Alda Calixto" />
-            Entre em contato conosco!
-          </div>
-
-          <div>
-            <div className={styles.itensFooter}>
-              <img src="/images/instagram.png" alt="Dr.Alda Calixto" />
-              <p>Dra.AldaCalixto</p>
-            </div>
-
-            <div
-              className={styles.itensFooter}
-              style={{ marginBottom: 20, marginTop: 20 }}
-            >
-              <img src="/images/call.png" alt="Dr.Alda Calixto" />
-              <p>34740-2907</p>
-            </div>
-
-            <div className={styles.itensFooter}>
-              <img src="/images/whatsApp.png" alt="Dr.Alda Calixto" />
-              <p>(31) 9 9844-5095</p>
-            </div>
-          </div>
-        </div>
-        <p className={styles.rights}>
-          Alda Calixto — 2021 © Todos os direitos reservados
-        </p>
-      </div>
+      <Footer />
     </>
   );
 }
