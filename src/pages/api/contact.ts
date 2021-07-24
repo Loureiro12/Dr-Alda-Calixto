@@ -3,7 +3,24 @@ import { query as q } from "faunadb";
 import { fauna } from "../../services/fauna";
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default function (req, res) {
-  const { name } = req.body;
-  console.log({ data: { name } });
+export default async function (req, res) {
+  const { name, email, phone } = req.body;
+
+  try {
+    await fauna.query(
+      q.If(
+        q.Not(
+          q.Exists(
+            q.Match(q.Index("user_by_email"), q.Casefold(req.body.email))
+          )
+        ),
+        q.Create(q.Collection("users"), { data: { name, email, phone } }),
+        q.Update(q.Index("user_by_email"), q.Casefold(req.body.email))
+      )
+    );
+
+    return true;
+  } catch {
+    return false;
+  }
 }
