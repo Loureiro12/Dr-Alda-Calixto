@@ -6,5 +6,5 @@ import Contato from "./Contato";
 import Home from "./Home";
 
 export default function Page() {
-  return <Home />;
+  return <Contato />;
 }
