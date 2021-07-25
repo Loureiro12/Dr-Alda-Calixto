@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.scss";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -46,9 +47,9 @@ export function Footer() {
       </div>
       <div className={styles.footerMin}>
         <div className={styles.itens}>
-          <a>Home</a>
+          <Link href="/">Home</Link>
           <div className={styles.separator} />
-          <a>Contato</a>
+          <Link href="/Contato">Contato</Link>
           <div className={styles.separator} />
         </div>
         <p className={styles.copyright}>
