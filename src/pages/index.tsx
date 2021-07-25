@@ -1,8 +1,11 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import styles from "./home.module.scss";
 
 import Contato from "./Contato";
+
+import profilePic from "../../public/images/icon.png";
 
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -29,13 +32,13 @@ export default function Page() {
         <title>Home | Dr. Alda Calixto</title>
       </Head>
       <main className={styles.contentContainer}>
-        {/* <Contato /> */}
         <div className={styles.aboutClinic}>
           <div>
-            <img
-              src="/images/icon.png"
+            <Image
+              src={profilePic}
               alt="Dr.Alda Calixto"
               className={styles.imgTooth}
+              layout="intrinsic"
             />
             <h1>Sobre a clínica</h1>
           </div>
@@ -56,11 +59,11 @@ export default function Page() {
         <div className={styles.AboutTeam}>
           <div>
             <h1>Nossa equipe</h1>
-            <img
+            {/* <img
               src="/images/icon.png"
               alt="Dr.Alda Calixto"
               className={styles.imgTooth}
-            />
+            /> */}
           </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,7 +77,7 @@ export default function Page() {
 
         <div className={styles.imageTeam}>
           <div>
-            <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+            {/* <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" /> */}
             <div>
               <p>Dra. Alda Calixto</p>
               <p>(especialidade)</p>
@@ -83,7 +86,7 @@ export default function Page() {
           </div>
 
           <div>
-            <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+            {/* <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" /> */}
             <div>
               <p>Dra. Alda Calixto</p>
               <p>(especialidade)</p>
@@ -95,11 +98,11 @@ export default function Page() {
         <div className={styles.plans}>
           <div className={styles.titlePlans}>
             <div>
-              <img
+              {/* <img
                 src="/images/icon.png"
                 alt="Dr.Alda Calixto"
                 className={styles.imgTooth}
-              />
+              /> */}
               <h1>Nossos planos</h1>
             </div>
             <p>
@@ -117,12 +120,12 @@ export default function Page() {
               <tr>
                 <td className={styles.titleFirst} style={{ padding: 10 }}>
                   {" "}
-                  <img
+                  {/* <img
                     className={styles.imgTitleTable}
                     src="/images/imageTable.png"
                     alt="Dr.Alda Calixto"
                     className={styles.imgTooth}
-                  />
+                  /> */}
                 </td>
                 <td className={styles.category}>Plano Porcelana</td>
                 <td className={styles.categoryLast}>Plano Platina</td>
@@ -137,75 +140,75 @@ export default function Page() {
               <tr style={{ marginBottom: 20 }}>
                 <td className={styles.title}>Benefício 1</td>
                 <td className={styles.contentImg}>
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
                 <td
                   style={{
                     borderLeft: 1,
-                    borderLeft: "solid",
+                    // borderLeft: "solid",
                     borderColor: "#A76C75",
                   }}
                   className={styles.contentImg}
                 >
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
               </tr>
 
               <tr>
                 <td className={styles.title}>Benefício 2</td>
                 <td className={styles.contentImg}>
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
                 <td
                   style={{
                     borderLeft: 1,
-                    borderLeft: "solid",
+                    // borderLeft: "solid",
                     borderColor: "#A76C75",
                   }}
                   className={styles.contentImg}
                 >
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
               </tr>
 
               <tr>
                 <td className={styles.title}>Benefício 3</td>
                 <td className={styles.contentImg}>
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
                 <td
                   style={{
                     borderLeft: 1,
-                    borderLeft: "solid",
+                    // borderLeft: "solid",
                     borderColor: "#A76C75",
                   }}
                   className={styles.contentImg}
                 >
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
               </tr>
 
@@ -215,16 +218,16 @@ export default function Page() {
                 <td
                   style={{
                     borderLeft: 1,
-                    borderLeft: "solid",
+                    // borderLeft: "solid",
                     borderColor: "#A76C75",
                   }}
                   className={styles.contentImg}
                 >
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
               </tr>
 
@@ -234,16 +237,16 @@ export default function Page() {
                 <td
                   style={{
                     borderLeft: 1,
-                    borderLeft: "solid",
+                    // borderLeft: "solid",
                     borderColor: "#A76C75",
                   }}
                   className={styles.contentImg}
                 >
-                  <img
+                  {/* <img
                     className={styles.imgTable}
                     src="/images/icon.png"
                     alt="Dr.Alda Calixto"
-                  />
+                  /> */}
                 </td>
               </tr>
 
@@ -262,11 +265,11 @@ export default function Page() {
         <div className={styles.Address}>
           <div className={styles.titleAddress}>
             <div>
-              <img
+              {/* <img
                 className={styles.imgTooth}
                 src="/images/icon.png"
                 alt="Dr.Alda Calixto"
-              />
+              /> */}
               <h1>Nosso endereço</h1>
             </div>
           </div>
