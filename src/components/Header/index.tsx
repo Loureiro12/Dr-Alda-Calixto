@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.scss";
+import Link from "next/link";
 
 export function Header() {
   return (
@@ -7,8 +8,8 @@ export function Header() {
       <div className={styles.headerContainer}>
         <div className={styles.headerMenu}>
           <nav>
-            <a>Home</a>
-            <a>Contato</a>
+            <Link href="/">Home</Link>
+            <Link href="/Contato">Contato</Link>
           </nav>
         </div>
         <div className={styles.headerImage}>

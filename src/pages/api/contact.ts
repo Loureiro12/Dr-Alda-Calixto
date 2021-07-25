@@ -19,8 +19,8 @@ export default async function (req, res) {
       )
     );
 
-    return true;
+    res.status(200).end();
   } catch {
-    return false;
+    res.status(400).end();
   }
 }
