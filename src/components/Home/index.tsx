@@ -86,6 +86,24 @@ export function Home() {
             <p>CRO: 423412343</p>
           </div>
         </div>
+
+        <div>
+          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+          <div>
+            <p>Dra. Alda Calixto</p>
+            <p>(especialidade)</p>
+            <p>CRO: 423412343</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+          <div>
+            <p>Dra. Alda Calixto</p>
+            <p>(especialidade)</p>
+            <p>CRO: 423412343</p>
+          </div>
+        </div>
       </div>
 
       <div className={styles.plans}>

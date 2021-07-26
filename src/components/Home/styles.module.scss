@@ -92,7 +92,8 @@
   flex-wrap: wrap;
   justify-content: center;
   // background-color: red;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 40px;
 
   .contentTeam {
     margin-bottom: 20px;
@@ -102,7 +103,9 @@
   img {
     width: 331px;
     height: 403px;
-    margin-right: 20px;
+    // margin-right: 20px;
+    margin: 0 10px;
+    margin-top: 40px;
   }
 
   p {
@@ -120,15 +123,16 @@
     }
 
     img {
-      width: 231px;
-      height: 303px;
-      margin-right: 0px;
+      width: 131px;
+      height: 203px;
+      // margin-right: 20px;
+      justify-content: space-between;
       margin-top: 40px;
     }
 
     p {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 14px;
+      line-height: 21px;
     }
   }
 }
