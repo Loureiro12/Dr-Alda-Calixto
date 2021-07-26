@@ -28,6 +28,13 @@ export function Header() {
       </div>
 
       <div className={styles.containerMin}>
+        <div className={styles.headerMenuMin}>
+          <nav>
+            <Link href="/">Home</Link>
+            <Link href="/Contato">Contato</Link>
+          </nav>
+        </div>
+        <div className={styles.teste} />
         <div className={styles.headerMin}>
           <img src="/images/logoTipo.png" alt="Dr. Alda Calixto" />
         </div>
