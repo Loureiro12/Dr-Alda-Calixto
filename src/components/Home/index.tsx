@@ -70,38 +70,26 @@ export function Home() {
 
       <div className={styles.imageTeam}>
         <div>
-          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+          <img src="/images/doctorImg/Dra.Alda.jpeg" alt="Dra. Alda Calixto" />
           <div>
             <p>Dra. Alda Calixto</p>
             <p>(especialidade)</p>
-            <p>CRO: 423412343</p>
           </div>
         </div>
 
         <div>
-          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+          <img src="/images/doctorImg/Dra.Luana.jpeg" alt="Dra. Alda Calixto" />
           <div>
-            <p>Dra. Alda Calixto</p>
-            <p>(especialidade)</p>
-            <p>CRO: 423412343</p>
+            <p>Dra. Luana Godinho</p>
+            <p>Clínica Geral</p>
           </div>
         </div>
 
         <div>
-          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
+          <img src="/images/doctorImg/Ruth.jpeg" alt="Dra. Alda Calixto" />
           <div>
-            <p>Dra. Alda Calixto</p>
-            <p>(especialidade)</p>
-            <p>CRO: 423412343</p>
-          </div>
-        </div>
-
-        <div>
-          <img src="/images/ImageDoctor.png" alt="Dra. Alda Calixto" />
-          <div>
-            <p>Dra. Alda Calixto</p>
-            <p>(especialidade)</p>
-            <p>CRO: 423412343</p>
+            <p>Ruth Helena</p>
+            <p>Secretária</p>
           </div>
         </div>
       </div>

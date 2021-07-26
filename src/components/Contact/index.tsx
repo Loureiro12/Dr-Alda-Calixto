@@ -136,7 +136,7 @@ export function Contact() {
               <img src="/images/instagramNude.png" alt="" />
             </button>
           </a>
-          <a href="">
+          <a href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0">
             <button>
               <img src="/images/whatsappNude.png" alt="" />
             </button>
