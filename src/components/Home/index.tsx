@@ -10,16 +10,24 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: "/images/header.png",
-    thumbnail: "/images/header.png",
+    original: "/images/gallery/gallery2.jpg",
+    thumbnail: "/images/gallery/gallery2.jpg",
   },
   {
-    original: "/images/imagemTest.jpeg",
-    thumbnail: "/images/imagemTest.jpeg",
+    original: "/images/gallery/gallery3.jpg",
+    thumbnail: "/images/gallery/gallery3.jpg",
   },
   {
-    original: "/images/header.png",
-    thumbnail: "/images/header.png",
+    original: "/images/gallery/gallery4.jpg",
+    thumbnail: "/images/gallery/gallery4.jpg",
+  },
+  {
+    original: "/images/gallery/gallery5.jpg",
+    thumbnail: "/images/gallery/gallery5.jpg",
+  },
+  {
+    original: "/images/gallery/gallery6.jpg",
+    thumbnail: "/images/gallery/gallery6.jpg",
   },
 ];
 
