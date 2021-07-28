@@ -9,22 +9,30 @@ export function Footer() {
         <div className={styles.contanteFooter}>
           <div className={styles.links}>
             <h3 style={{ marginBottom: 10 }}>Alda Calixto</h3>
-            <a href="">Sobre a clínica</a>
-            <br />
-            <a href="">Nossa equipe</a>
-            <br />
-            <a href="">Nossos planos</a>
+            <div>
+              <a href="#aboutClinic">Sobre a clínica</a>
+            </div>
+            <div>
+              <a href="#AboutTeam">Nossa equipe</a>
+            </div>
+            <div>
+              <a href="#plans">Nossos planos</a>
+            </div>
           </div>
 
-          <div className={styles.button}>
-            <img src="/images/callWhats.png" alt="Dr.Alda Calixto" />
-            Entre em contato conosco!
-          </div>
+          <a href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0">
+            <div className={styles.button}>
+              <img src="/images/callWhats.png" alt="Dr.Alda Calixto" />
+              Entre em contato conosco!
+            </div>
+          </a>
 
           <div>
             <div className={styles.itensFooter}>
               <img src="/images/instagram.png" alt="Dr.Alda Calixto" />
-              <p>Dra.AldaCalixto</p>
+              <a href="https://instagram.com/dra.aldacalixto?utm_medium=copy_link">
+                Dra.AldaCalixto
+              </a>
             </div>
 
             <div

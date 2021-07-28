@@ -2,6 +2,8 @@
 import { useState, FormEvent } from "react";
 import styles from "./styles.module.scss";
 
+import InputMask from "react-input-mask";
+
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -102,7 +104,8 @@ export function Contact() {
 
             <div className={styles.input}>
               <p>Digite seu telefone:</p>
-              <input
+              <InputMask
+                mask="(99) 9 9999-9999"
                 type="text"
                 placeholder="Digite seu telefone"
                 name="phone"
@@ -116,7 +119,7 @@ export function Contact() {
 
           <p>Digite seu e-mail:</p>
           <input
-            type="text"
+            type="email"
             placeholder="Digite seu e-mail"
             name="email"
             value={email}

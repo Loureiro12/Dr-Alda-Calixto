@@ -34,7 +34,7 @@ const images = [
 export function Home() {
   return (
     <>
-      <div className={styles.aboutClinic}>
+      <div className={styles.aboutClinic} id="aboutClinic">
         <div>
           <img
             src="/images/icon.png"
@@ -57,7 +57,7 @@ export function Home() {
         <ImageGallery items={images} autoPlay={true} />
       </div>
 
-      <div className={styles.AboutTeam}>
+      <div className={styles.AboutTeam} id="AboutTeam">
         <div>
           <h1>Nossa equipe</h1>
           <img
@@ -102,7 +102,7 @@ export function Home() {
         </div>
       </div>
 
-      <div className={styles.plans}>
+      <div className={styles.plans} id="plans">
         <div className={styles.titlePlans}>
           <div>
             <img

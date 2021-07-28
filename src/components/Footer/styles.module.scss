@@ -18,6 +18,22 @@
     align-items: center;
 
     .links {
+      h3 {
+        color: #f9e0b7;
+        font-size: 18px;
+        // font-family: "GoldenBookRegular";
+      }
+
+      div {
+        margin-bottom: 10px;
+      }
+      a {
+        color: #f9e0b7;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "GoldenBookRegular";
+        text-align: left;
+      }
     }
 
     .button {
@@ -45,6 +61,12 @@
       display: flex;
 
       p {
+        font-size: 16px;
+        color: #f9e0b7;
+        font-family: "GoldenBookRegular";
+      }
+
+      a {
         font-size: 16px;
         color: #f9e0b7;
         font-family: "GoldenBookRegular";
