@@ -81,12 +81,25 @@ export function Home() {
           <img src="/images/doctorImg/Dra.Alda.jpeg" alt="Dra. Alda Calixto" />
           <div>
             <p>Dra. Alda Calixto</p>
-            <p>(especialidade)</p>
           </div>
         </div>
 
         <div>
-          <img src="/images/doctorImg/Dra.Luana.jpeg" alt="Dra. Alda Calixto" />
+          <img
+            src="/images/doctorImg/Dra.Christina.jpeg"
+            alt="Dra. Christina Kawakami"
+          />
+          <div>
+            <p>Dra. Christina Kawakami</p>
+            <p>Implantodontista</p>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="/images/doctorImg/Dra.Luana.jpeg"
+            alt="Dra. Luana Godinho"
+          />
           <div>
             <p>Dra. Luana Godinho</p>
             <p>Clínica Geral</p>
@@ -94,7 +107,37 @@ export function Home() {
         </div>
 
         <div>
-          <img src="/images/doctorImg/Ruth.jpeg" alt="Dra. Alda Calixto" />
+          <img
+            src="/images/doctorImg/Dr.Marcio.jpeg"
+            alt="Dra. Márcio Ribeiro"
+          />
+          <div>
+            <p>Dra. Márcio Ribeiro</p>
+            <p>Ortodontista</p>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="/images/doctorImg/Dra.julia.jpeg"
+            alt="Dra. Julia Villemberg"
+          />
+          <div>
+            <p>Julia Villemberg</p>
+            <p>Estagiária</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="/images/doctorImg/Samuel.jpeg" alt="Samuel Calixto" />
+          <div>
+            <p>Samuel Calixto</p>
+            <p>Gestor Financeiro</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="/images/doctorImg/Ruth.jpeg" alt="Ruth Helena" />
           <div>
             <p>Ruth Helena</p>
             <p>Secretária</p>
