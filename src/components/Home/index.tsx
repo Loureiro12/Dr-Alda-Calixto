@@ -31,6 +31,51 @@ const images = [
   },
 ];
 
+const doctor = [
+  {
+    id: 1,
+    imagem: "/images/doctorImg/Dra.Alda.jpeg",
+    title: "Dra. Alda Calixto",
+    specialty: "Especialista em prótese",
+  },
+  {
+    id: 2,
+    imagem: "/images/doctorImg/Dra.Christina.jpeg",
+    title: "Dra. Christina Kawakami",
+    specialty: "Implantodontista",
+  },
+  {
+    id: 3,
+    imagem: "/images/doctorImg/Dra.Luana.jpeg",
+    title: "Dra. Luana Godinho",
+    specialty: "Clínica Geral",
+  },
+  {
+    id: 4,
+    imagem: "/images/doctorImg/Dr.Marcio.jpeg",
+    title: "Dra. Márcio Ribeiro",
+    specialty: "Ortodontista",
+  },
+  {
+    id: 5,
+    imagem: "/images/doctorImg/Dra.julia.jpeg",
+    title: "Dra. Julia Villemberg",
+    specialty: "Estagiária",
+  },
+  {
+    id: 6,
+    imagem: "/images/doctorImg/Samuel.jpeg",
+    title: "Samuel Calixto",
+    specialty: "Gestor Financeiro",
+  },
+  {
+    id: 7,
+    imagem: "/images/doctorImg/Ruth.jpeg",
+    title: "Ruth Helena",
+    specialty: "Secretária",
+  },
+];
+
 export function Home() {
   return (
     <>
@@ -77,72 +122,16 @@ export function Home() {
       </div>
 
       <div className={styles.imageTeam}>
-        <div>
-          <img src="/images/doctorImg/Dra.Alda.jpeg" alt="Dra. Alda Calixto" />
-          <div>
-            <p>Dra. Alda Calixto</p>
-          </div>
-        </div>
-
-        <div>
-          <img
-            src="/images/doctorImg/Dra.Christina.jpeg"
-            alt="Dra. Christina Kawakami"
-          />
-          <div>
-            <p>Dra. Christina Kawakami</p>
-            <p>Implantodontista</p>
-          </div>
-        </div>
-
-        <div>
-          <img
-            src="/images/doctorImg/Dra.Luana.jpeg"
-            alt="Dra. Luana Godinho"
-          />
-          <div>
-            <p>Dra. Luana Godinho</p>
-            <p>Clínica Geral</p>
-          </div>
-        </div>
-
-        <div>
-          <img
-            src="/images/doctorImg/Dr.Marcio.jpeg"
-            alt="Dra. Márcio Ribeiro"
-          />
-          <div>
-            <p>Dra. Márcio Ribeiro</p>
-            <p>Ortodontista</p>
-          </div>
-        </div>
-
-        <div>
-          <img
-            src="/images/doctorImg/Dra.julia.jpeg"
-            alt="Dra. Julia Villemberg"
-          />
-          <div>
-            <p>Julia Villemberg</p>
-            <p>Estagiária</p>
-          </div>
-        </div>
-
-        <div>
-          <img src="/images/doctorImg/Samuel.jpeg" alt="Samuel Calixto" />
-          <div>
-            <p>Samuel Calixto</p>
-            <p>Gestor Financeiro</p>
-          </div>
-        </div>
-
-        <div>
-          <img src="/images/doctorImg/Ruth.jpeg" alt="Ruth Helena" />
-          <div>
-            <p>Ruth Helena</p>
-            <p>Secretária</p>
-          </div>
-        </div>
+        {doctor &&
+          doctor.map((item, key) => (
+            <div className={styles.contentTeam} key={key}>
+              <img src={item.imagem} alt={item.title} />
+              <div>
+                <p>{item.title}</p>
+                <p>{item.specialty}</p>
+              </div>
+            </div>
+          ))}
       </div>
 
       <div className={styles.plans} id="plans">

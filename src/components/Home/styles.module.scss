@@ -85,26 +85,29 @@
 }
 
 .imageTeam {
+  // display: flex;
+  // flex: 1 1 auto;
+  // padding: 0;
+  // // width: 100% !important;
+  // // flex-wrap: wrap;
+  // justify-content: center;
+  // // background-color: red;
+  // margin-top: 0px;
+  // margin-bottom: 40px;
+
   display: flex;
-  flex: 1 1 auto;
-  padding: 0;
-  width: 100% !important;
-  flex-wrap: wrap;
-  justify-content: center;
-  // background-color: red;
-  margin-top: 0px;
-  margin-bottom: 40px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 
   .contentTeam {
-    margin-bottom: 20px;
-    margin-right: 20px;
+    // display: inline-block;
   }
 
   img {
     width: 331px;
     height: 403px;
     // margin-right: 20px;
-    margin: 0 10px;
+    margin-right: 10px;
     margin-top: 40px;
     border-radius: 10px;
   }
