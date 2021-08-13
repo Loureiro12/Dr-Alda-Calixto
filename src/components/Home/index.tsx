@@ -359,7 +359,7 @@ export function Home() {
 
       <div className={styles.maps}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.940414883978!2d-44.00971668508632!3d-19.884737786629117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6914c28211fe5%3A0x7eac3f7c2f0f02db!2sR.%20Pontalina%20-%20Pampulha%2C%20Belo%20Horizonte%20-%20MG%2C%2030882-520!5e0!3m2!1spt-BR!2sbr!4v1626133177060!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.5757287528427!2d-44.007886084593565!3d-19.900129386620478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696ba1db77c3b%3A0x90bf87201a108ab5!2sR.%20Gua%C3%ADba%2C%2073%20-%20Gl%C3%B3ria%2C%20Belo%20Horizonte%20-%20MG%2C%2030830-370!5e0!3m2!1spt-BR!2sbr!4v1628818987815!5m2!1spt-BR!2sbr"
           loading="lazy"
         ></iframe>
       </div>
