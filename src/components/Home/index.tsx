@@ -92,7 +92,7 @@ export function Home() {
           “O sorriso representa alegria, beleza e é capaz de transformar o
           cotidiano das pessoas, transmite acolhimento, restaura laços e cura a
           alma”. É com este pensamento que a dentista Dra. Alda Calixto cuida da
-          saúde bucal de seus pacientes a cerca de 20 anos, juntamente com sua
+          saúde bucal de seus pacientes a cerca de 30 anos, juntamente com sua
           equipe de profissionais qualificados na área de Odontologia.
           <br />
           <br />
@@ -105,9 +105,10 @@ export function Home() {
           <br />
           <br />
           Hoje, além de atuar em várias profilaxia da Odontologia, a Dra. Alda
-          Calixto tem grande performance no procedimento de faceta, que tem como
-          objetivo recobrir os dentes para melhorar sua estética e realçar a
-          beleza que há em um sorriso.
+          Calixto tem grande performance em procedimentos de reabilitação e
+          estética (facetas e lentes de contato), que tem como objetivo recobrir
+          os dentes para melhorar sua estética e realçar a beleza que há em um
+          sorriso.
           <br />
           <br />
         </p>
@@ -170,8 +171,8 @@ export function Home() {
             <br />
             Por isso, ofertamos consultas avaliativas, profilaxias completas,
             periódicas e exclusivas, sempre respeitando suas individualidades e
-            buscando o que há de melhor para atendê-lo. Conheça nossos serviços,
-            planos Monitoramento e Família.
+            buscando o que há de melhor para atendê-lo. Conheça nosso programa
+            de Monitoramento.
           </p>
           <br />
           <p>Alguns dos nosso benefícios:</p>
@@ -359,7 +360,7 @@ export function Home() {
 
       <div className={styles.maps}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.5757287528427!2d-44.007886084593565!3d-19.900129386620478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696ba1db77c3b%3A0x90bf87201a108ab5!2sR.%20Gua%C3%ADba%2C%2073%20-%20Gl%C3%B3ria%2C%20Belo%20Horizonte%20-%20MG%2C%2030830-370!5e0!3m2!1spt-BR!2sbr!4v1628818987815!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.9102344702765!2d-43.99550178510008!3d-19.886011986628407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691305a6e9f6f%3A0x55ce4e034f99f6c4!2sAv.%20Pres.%20Tancredo%20Neves%2C%202640%20-%20Castelo%2C%20Belo%20Horizonte%20-%20MG%2C%2031330-642!5e0!3m2!1spt-BR!2sbr!4v1628876479994!5m2!1spt-BR!2sbr"
           loading="lazy"
         ></iframe>
       </div>
