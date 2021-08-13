@@ -89,12 +89,27 @@ export function Home() {
           <h1>Sobre a clínica</h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
+          “O sorriso representa alegria, beleza e é capaz de transformar o
+          cotidiano das pessoas, transmite acolhimento, restaura laços e cura a
+          alma”. É com este pensamento que a dentista Dra. Alda Calixto cuida da
+          saúde bucal de seus pacientes a cerca de 20 anos, juntamente com sua
+          equipe de profissionais qualificados na área de Odontologia.
+          <br />
+          <br />
+          A profissão: dentista, veio da admiração pelo pai apaixonado e
+          dedicado às próteses dentárias, na aptidão por trabalhos manuais e por
+          apreciar os detalhes. Com isso, Alda formou na Faculdade de
+          Odontologia da Universidade de Itaúna (1992) e fez especialização em
+          prótese e disfunção temporomandibular pela faculdade São Leopoldo
+          Mandic.
+          <br />
+          <br />
+          Hoje, além de atuar em várias profilaxia da Odontologia, a Dra. Alda
+          Calixto tem grande performance no procedimento de faceta, que tem como
+          objetivo recobrir os dentes para melhorar sua estética e realçar a
+          beleza que há em um sorriso.
+          <br />
+          <br />
         </p>
       </div>
 
@@ -112,12 +127,14 @@ export function Home() {
           />
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.
+          Ao longo dos anos, Dra. Alda Calixto e sua equipe de profissionais
+          experientes trabalham com o compromisso de um atendimento humanizado
+          no tratamento dentário, visando devolver qualidade de vida e
+          autoestima para seus pacientes, crianças ou adultos.
+          <br />
+          <br />
+          Sua realização profissional está no sentimento de dever cumprido em
+          ver alegria nas pessoas com seus sorrisos restabelecidos.
         </p>
       </div>
 
@@ -142,19 +159,46 @@ export function Home() {
               alt="Dr.Alda Calixto"
               className={styles.imgTooth}
             />
-            <h1>Nossos planos</h1>
+            <h1>Programa de manutenção preventiva</h1>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco.
+            Comprometidos em transformar vidas e devolver sorrisos, nosso
+            programa têm como objetivo incentivar à prevenção da saúde bucal e
+            mudar a cultura de que as pessoas devem procurar o dentista apenas
+            em situações extremas.
+            <br />
+            <br />
+            Por isso, ofertamos consultas avaliativas, profilaxias completas,
+            periódicas e exclusivas, sempre respeitando suas individualidades e
+            buscando o que há de melhor para atendê-lo. Conheça nossos serviços,
+            planos Monitoramento e Família.
           </p>
+          <br />
+          <p>Alguns dos nosso benefícios:</p>
+          <br />
+
+          <ul className={styles.list}>
+            <li>Supervisão da higiene bucal</li>
+            <li>Aplicação de flúor e selantes nas limpezas</li>
+            <li>Consultas pré-agendadas com a Dra Alda e equipe</li>
+            <li>1 escova de dente de excelente qualidade a cada 3 meses</li>
+            <li>1 necessaire personalizada</li>
+            <li>
+              Descontos e formas de pagamento exclusivos nos procedimentos
+              odontológicos realizados pela nossa equipe.
+            </li>
+          </ul>
+          <div className={styles.containerButtonPlan}>
+            <a
+              href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0"
+              className={styles.buttonPlan}
+            >
+              <p>Saiba mais sobre o programa</p>
+            </a>
+          </div>
         </div>
 
-        <div className={styles.ConteinerTable}>
+        {/* <div className={styles.ConteinerTable}>
           <table>
             <tr>
               <td className={styles.titleFirst} style={{ padding: 10 }}>
@@ -297,7 +341,7 @@ export function Home() {
               <td style={{ background: "#FFF", borderRadius: 30 }}></td>
             </tr>
           </table>
-        </div>
+        </div> */}
       </div>
 
       <div className={styles.Address}>
