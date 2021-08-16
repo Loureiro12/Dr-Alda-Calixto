@@ -104,11 +104,10 @@ export function Home() {
           Mandic.
           <br />
           <br />
-          Hoje, além de atuar em várias profilaxia da Odontologia, a Dra. Alda
-          Calixto tem grande performance em procedimentos de reabilitação e
-          estética (facetas e lentes de contato), que tem como objetivo recobrir
-          os dentes para melhorar sua estética e realçar a beleza que há em um
-          sorriso.
+          Hoje além de atuar em várias áreas da odontologia a Dra Alda Calixto
+          tem grande performance em procedimentos de reabilitação e estética
+          (facetas e lentes de contato) que têm como objetivo resgatar a função
+          e a beleza que há em um sorriso.
           <br />
           <br />
         </p>
@@ -169,13 +168,13 @@ export function Home() {
             em situações extremas.
             <br />
             <br />
-            Por isso, ofertamos consultas avaliativas, profilaxias completas,
-            periódicas e exclusivas, sempre respeitando suas individualidades e
-            buscando o que há de melhor para atendê-lo. Conheça nosso programa
-            de Monitoramento.
+            Por isso , ofertamos para os que aderem ao programa: consultas
+            avaliativas e profilaxias completas ,periódicas e exclusivas ,
+            sempre respeitando a individualidade e buscando oque há de melhor
+            para o atendimento.
           </p>
           <br />
-          <p>Alguns dos nosso benefícios:</p>
+          <p>Conheça o programa de monitoramento:</p>
           <br />
 
           <ul className={styles.list}>
