@@ -10,24 +10,32 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: "/images/gallery/gallery2.jpg",
-    thumbnail: "/images/gallery/gallery2.jpg",
+    original: "/images/gallery/gallery12.jpeg",
+    thumbnail: "/images/gallery/gallery12.jpeg",
   },
   {
-    original: "/images/gallery/gallery3.jpg",
-    thumbnail: "/images/gallery/gallery3.jpg",
+    original: "/images/gallery/gallery13.jpeg",
+    thumbnail: "/images/gallery/gallery13.jpeg",
   },
   {
-    original: "/images/gallery/gallery4.jpg",
-    thumbnail: "/images/gallery/gallery4.jpg",
+    original: "/images/gallery/gallery11.jpeg",
+    thumbnail: "/images/gallery/gallery11.jpeg",
   },
   {
-    original: "/images/gallery/gallery5.jpg",
-    thumbnail: "/images/gallery/gallery5.jpg",
+    original: "/images/gallery/gallery10.jpeg",
+    thumbnail: "/images/gallery/gallery10.jpeg",
   },
   {
-    original: "/images/gallery/gallery6.jpg",
-    thumbnail: "/images/gallery/gallery6.jpg",
+    original: "/images/gallery/gallery9.jpeg",
+    thumbnail: "/images/gallery/gallery9.jpeg",
+  },
+  {
+    original: "/images/gallery/gallery8.jpeg",
+    thumbnail: "/images/gallery/gallery8.jpeg",
+  },
+  {
+    original: "/images/gallery/gallery7.jpeg",
+    thumbnail: "/images/gallery/gallery7.jpeg",
   },
 ];
 
@@ -46,33 +54,15 @@ const doctor = [
   },
   {
     id: 3,
-    imagem: "/images/doctorImg/Dra.Luana.jpeg",
-    title: "Dra. Luana Godinho",
-    specialty: "Clínica Geral",
-  },
-  {
-    id: 4,
     imagem: "/images/doctorImg/Dr.Marcio.jpeg",
     title: "Dra. Márcio Ribeiro",
     specialty: "Ortodontista",
   },
   {
-    id: 5,
-    imagem: "/images/doctorImg/Dra.julia.jpeg",
-    title: "Dra. Julia Villemberg",
-    specialty: "Estagiária",
-  },
-  {
-    id: 6,
+    id: 4,
     imagem: "/images/doctorImg/Samuel.jpeg",
     title: "Samuel Calixto",
     specialty: "Gestor Financeiro",
-  },
-  {
-    id: 7,
-    imagem: "/images/doctorImg/Ruth.jpeg",
-    title: "Ruth Helena",
-    specialty: "Secretária",
   },
 ];
 
@@ -151,6 +141,15 @@ export function Home() {
           ))}
       </div>
 
+      <div className={styles.buttonRedi}>
+        <a href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0">
+          <div className={styles.button}>
+            <img src="/images/callWhats.png" alt="Dr.Alda Calixto" />
+            Entre em contato conosco!
+          </div>
+        </a>
+      </div>
+
       <div className={styles.plans} id="plans">
         <div className={styles.titlePlans}>
           <div>
@@ -188,12 +187,20 @@ export function Home() {
               odontológicos realizados pela nossa equipe.
             </li>
           </ul>
-          <div className={styles.containerButtonPlan}>
+          {/* <div className={styles.containerButtonPlan}>
             <a
               href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0"
               className={styles.buttonPlan}
             >
               <p>Saiba mais sobre o programa</p>
+            </a>
+          </div> */}
+          <div className={styles.buttonRedi}>
+            <a href="https://api.whatsapp.com/send/?phone=5531998445095&text&app_absent=0">
+              <div className={styles.button}>
+                <img src="/images/callWhats.png" alt="Dr.Alda Calixto" />
+                Saiba mais sobre o programa
+              </div>
             </a>
           </div>
         </div>

@@ -8,8 +8,12 @@ export function Header() {
       <div className={styles.headerContainer}>
         <div className={styles.headerMenu}>
           <nav>
-            <Link href="/">Home</Link>
-            <Link href="/Contato">Contato</Link>
+            <Link href="#aboutClinic">Quem Somos</Link>
+            <Link href="#AboutTeam">Equipe</Link>
+            <Link href="#plans">Manutenção Preventiva</Link>
+            <Link href="#footer">Contato</Link>
+
+            {/* <Link href="/Contato">Contato</Link> */}
           </nav>
         </div>
         <div className={styles.headerImage}>
@@ -30,8 +34,10 @@ export function Header() {
       <div className={styles.containerMin}>
         <div className={styles.headerMenuMin}>
           <nav>
-            <Link href="/">Home</Link>
-            <Link href="/Contato">Contato</Link>
+            <Link href="#aboutClinic">Quem Somos</Link>
+            <Link href="#AboutTeam">Equipe</Link>
+            {/* <Link href="#plans">Manutenção Preventiva</Link> */}
+            <Link href="#footerMin">Contato</Link>
           </nav>
         </div>
         <div className={styles.teste} />

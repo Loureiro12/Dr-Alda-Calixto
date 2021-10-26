@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Footer() {
   return (
     <>
-      <div className={styles.footer}>
+      <div className={styles.footer} id="footer">
         <div className={styles.contanteFooter}>
           <div className={styles.links}>
             <h3 style={{ marginBottom: 10 }}>Alda Calixto</h3>
@@ -53,12 +53,28 @@ export function Footer() {
           Alda Calixto — 2021 © Todos os direitos reservados
         </p>
       </div>
-      <div className={styles.footerMin}>
+
+      <div className={styles.footerMin} id="footerMin">
         <div className={styles.itens}>
-          <Link href="/">Home</Link>
-          <div className={styles.separator} />
-          <Link href="/Contato">Contato</Link>
-          <div className={styles.separator} />
+          <div className={styles.itensFooterMin}>
+            <img src="/images/instagram.png" alt="Dr.Alda Calixto" />
+            <a href="https://instagram.com/dra.aldacalixto?utm_medium=copy_link">
+              Dra.AldaCalixto
+            </a>
+          </div>
+
+          <div
+            className={styles.itensFooterMin}
+            style={{ marginBottom: 10, marginTop: 10 }}
+          >
+            <img src="/images/call.png" alt="Dr.Alda Calixto" />
+            <a>(31) 34740-2907</a>
+          </div>
+
+          <div className={styles.itensFooterMin}>
+            <img src="/images/whatsApp.png" alt="Dr.Alda Calixto" />
+            <a>(31) 9 9844-5095</a>
+          </div>
         </div>
         <p className={styles.copyright}>
           Alda Calixto — 2021 © Todos os direitos reservados
